@@ -1,0 +1,66 @@
+header{
+	height:500px;
+	background:url(../images/sports/head_bg.jpg) left center;
+	background-size:100% 100%;
+}
+/*header字体样式*/
+.header_font{
+	width:600px;height:200px;
+	position:absolute;
+	margin:220px 0 0 250px;
+	color:white;
+}
+.header_font h2{
+	font-size:70px;
+	color:#00a5e2;
+}
+.header_font p{
+	font-size:16px;
+	line-height:26px;
+}
+
+
+main{
+	color:black;
+}
+main ul li{
+	margin:110px 0 0 0;
+}
+/*======左边图片========*/
+main ul li:nth-of-type(1){
+	width:35%;
+	float:left;
+}
+main ul li:nth-of-type(1) img{
+	float:right;
+}
+/*========右边字体========*/
+main ul li:nth-of-type(2){
+	width:40%;
+	float:left;
+	margin:110px 0 0 50px;
+
+}
+main ul li:nth-of-type(2) span{
+	font-size:30px;
+}
+main ul li:nth-of-type(2) p{
+	margin:10px 0 0 0;
+	line-height:25px;
+}
+main ul li:nth-of-type(2) a{
+	display:block;
+	width:150px;height:35px;
+	line-height:35px;
+	text-align:center;
+	background:#ff9c00;
+	color:black;
+	margin:20px 0 0 0;
+}
+main ul li:nth-of-type(2) a:hover{
+	opacity:.9;
+}
+.afloor{
+	width:100%;height:430px;
+	border-bottom:1px solid #ddd;
+}

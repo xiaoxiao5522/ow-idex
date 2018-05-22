@@ -1,0 +1,90 @@
+body{
+	background:url(../images/heros/bg.jpg);
+	color:#405275;
+}
+main{
+	width:1200px;
+	margin:0 auto;
+	
+}
+main i{
+	font-size:70px;
+}
+main p{
+	font-size:30px;
+	margin:20px 0 0 0 ;
+}
+.main_heros{
+	width:1200px;
+}
+
+.main_heros li{
+	width:155px;
+	height:270px;
+	float:left;
+	position:relative;
+	margin:20px 0 0 9px;
+}
+.heros li{
+	background:url(../images/heros/heros_bg.jpg);
+}
+.heros li:hover{
+	transform:scale(1.1);
+	border:1px solid white;
+	margin:19px -1px -1px 8px;
+}
+
+.heros li span{
+	display:block;
+	width:155px;
+	height:80px;
+	line-height:80px;
+	position:absolute;
+	margin: -83px 0 0 0;
+	text-align:center;
+	background:rgba(40,53,79,.9);
+}
+/*.heros li:hover span{
+	background:white;
+	color:black;
+}*/
+.heros li .img{
+	position:absolute;
+	margin:5px 0 0 -25px;
+}
+.main_heros li span i{
+	font-size:28px;
+	color:#d0d0dc;
+}
+
+
+.main_herostype{
+	width:1200px;
+	height:50px;
+	margin:50px 0 0 -3px;
+}
+.main_herostype li {
+	width:230px;
+	height:50px;
+	line-height:50px;
+	margin:0 0 0 3px; 
+	background:rgba(255,255,255,.3);
+	border:none;
+}
+.main_herostype li:nth-of-type(1) {
+	background:rgb(255,255,255);
+}
+.main_herostype li a{
+	display:block;
+	width:230px;
+	height:50px;
+	color:#405275;
+}
+.main_herostype li a:hover{
+	background:white;
+}
+.main_herostype li img{
+	float:left;
+	margin:10px 0 0 80px;
+	fill:#1a325e;
+}

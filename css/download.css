@@ -1,0 +1,139 @@
+body{
+	background:url(../images/download/bg.jpg);
+}
+main{
+	width:1200px;
+	margin:-20px auto 0;
+	color:white;
+}
+.main_left{
+	width:850px; 
+	float:left;
+}
+.main_left h4{
+	width:500px;
+}
+.main_left p{
+	width:800px;
+	margin:20px 0 0 10px;
+}
+.main_left p a{
+	display:block;	
+}
+.main_left p a:hover{
+	border:2px solid white;
+	margin:-2px -2px -2px -2px;
+}
+
+.main_left_bfloor p a{
+	width:400px;
+	margin:0 auto;
+}
+.main_left_bfloor p a:hover{
+	border:2px solid white;
+	margin:-2px auto -2px;
+}
+.main_left strong{
+	display:inline-block;
+	width:800px;
+}
+.main_left div{
+	width:800px;
+}
+
+.main_left_afloor h2{
+	font-size:50px;
+} 
+.main_left_afloor span{
+	color:rgba(255,255,255,.3);
+}
+
+.main_left_afloorP{
+	height:300px;
+	border-radius:10px;
+	overflow:hidden;
+	margin:70px 0 0 0 ;
+} 
+.main_left_afloor p{
+	margin:20px 0 0 20px;
+} 
+.main_left_buy a{
+	display:block;
+}
+.main_left_buyT{
+	height:60px;
+	margin:40px 0 0 0;
+}
+.main_left_buyT a{
+	width:250px;
+	margin:0 auto;
+}
+.main_left_buyD{
+	height:60px;
+	margin:10px 0 0 0;
+}
+.main_left_buyD a{
+	width:350px;height:80px;
+	line-height:80px;
+	text-align:center;
+	font-size:28px;
+	color:#f7931e;
+	float:left;
+	margin:0 0 0 40px;
+}
+.main_left_buyD a:hover{
+	color:white;	
+}
+
+.main_left_cfloor,.main_left_dfloor{
+	margin:50px 0 0 0;
+}
+.main_left_efloor,.main_left_ffloor{
+	margin:80px 0 0 0;
+}
+
+
+
+.main_right{
+	width:350px;height:440px;
+	float:left;
+	background:rgba(255,255,255,.04);
+}
+.main_right ul li{
+	width:350px;height:88px;
+	border-bottom:1px solid rgba(255,255,255,.1);
+}		
+.main_right ul li img{
+	float:left;
+	margin:20px 0 0 10px;
+	border:1px solid rgba(255,255,255,.1);
+}
+.main_right ul li img:hover{
+	border:3px solid white;
+	margin:15px 0px 0px 6px;
+	box-shadow:0px 0px 2px white;
+}
+.main_right ul li h3{
+	display:block;
+	width:300px;
+	font-size:25px;
+	margin:40px 0 0 10px ;
+	text-align:left;
+	border-bottom:3px solid white;
+}
+.main_right ul li h5{
+	display:block;
+	width:180px;
+	font-size:12px;
+	color:#f9ab4f;
+	margin:20px 0 0 0 ;
+	float:left;
+
+}
+.main_right ul li p{
+	display:block;
+	width:180px;
+	font-size:12px;
+	float:left;
+	color:rgba(255,255,255,.5);
+}

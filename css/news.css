@@ -1,0 +1,95 @@
+body{
+	background:url(../images/news/bg-news-index.jpg);
+}
+
+main{
+	width:1200px;
+	margin:0px auto 0;
+}
+main{
+	color:rgba(255,255,255,0.85);
+}
+.main_content{
+	width:1200px;height:530px;
+}
+.main_content>ul>li{
+	width:274px;height:250px;
+	float:left;
+	margin:0 0 20px 20px;
+	border:1px solid transparent;
+	overflow:hidden;
+}
+.main_content ul li:hover{
+	border:1px solid white;
+	box-shadow:0px 0px 2px white;
+}
+/*=======大图片样式=======*/
+.main_content .main_content_big{
+	width:570px;
+	border:1px solid transparent;
+}
+.main_content .main_content_big span{
+	width:550px;height:50px;
+}
+.main_content>ul>li span{
+	display:block;
+	width:254px;height:50px;
+	line-height:50px;
+	font-size:19px;
+	background:rgba(0,0,0,.75);
+	margin:-54px 0 0 0;
+	padding:0 0 0 20px;
+	position:absolute;
+}
+
+/*==========新闻列表=============*/
+.bfloor{
+	width:1200px;
+	border-top:3px solid rgba(255,255,255,.1);
+	margin:30px 0 0 0;
+}
+.bfloor ul li{
+	width:1200px;height:170px;
+	border:1px solid rgba(255,255,255,.1);
+}	
+.bfloor ul li img{
+	float:left;
+	margin:10px 0 0 10px;
+	border:1px solid rgba(255,255,255,.1);
+}
+.bfloor ul li img:hover{
+	border:3px solid white;
+	margin:6px 0px 0px 6px;
+	box-shadow:0px 0px 2px white;
+}
+.bfloor ul li h5{
+	display:block;
+	width:800px;
+	font-size:20px;
+	float:left;
+	margin: 10px 0 0 40px;
+}
+.bfloor ul li p{
+	display:block;
+	width:800px;
+	font-size:14px;
+	float:left;
+	margin: 10px 0 0 40px;
+}
+
+.button{
+	width:1200px;height:100px;
+}
+.button a{
+	display:block;
+	width:200px;height:50px;
+	line-height:50px;
+	font-size:30px;
+	text-align:center;
+	border:3px solid white;
+	margin:50px auto 0;
+}
+.button a:hover{
+	background:white;
+	color:black;
+}
